@@ -1,5 +1,8 @@
+from grade_converter import grade_converter
+
+
 def main():
-    pass
+    grade_converter()
 
 
 if __name__ == '__main__':
