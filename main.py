@@ -1,9 +1,10 @@
 from grade_converter import grade_converter
 from leap_year import leap_year
+from atm import atm
 
 
 def main():
-    leap_year()
+    atm()
 
 
 if __name__ == '__main__':
