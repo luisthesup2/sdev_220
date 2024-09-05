@@ -35,6 +35,7 @@ while True:
             break
 
     if lastname.lower() in students.keys():
+        # If the user is registered the system will tell the in which list they are
         print(f"\n{lastname.capitalize()} {students[lastname]['firstname'].capitalize()}")
         if students[lastname]["gpa"] >= 3.5:
             print("You are in the Dean's scholarship list\n")
@@ -43,6 +44,7 @@ while True:
         else:
             print("Your GPA is not strong enough yet, keep working hard!\n")
     else:
+        # If the user is new the system will ask for a GPA and add them to the system
         gpa = float(input("GPA <<== "))
         print("You have been added to our system, please sign in!\n")
 
