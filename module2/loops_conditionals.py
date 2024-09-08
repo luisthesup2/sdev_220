@@ -1,10 +1,10 @@
-# Luis Velasquez | Loops and Conditionals
+# Luis Velasquez | Loops and Conditionals | loops_conditionals.py
 
 # 4.1
 secret = 6
 guess = 9
 
-if guess < secret:
+if guess < secret:  
     print("Too low!")
 elif guess > secret:
     print("Too high!")
